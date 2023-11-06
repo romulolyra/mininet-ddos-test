@@ -1,0 +1,103 @@
+2023-11-01 21:47:02 [INFO] *** Add 2 switches ***
+
+2023-11-01 21:47:02 [INFO] *** Add Hosts ***
+
+2023-11-01 21:47:03 [INFO] *** Add links ***
+
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (5.00Mbit) 
+2023-11-01 21:47:03 [INFO] (5.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] (10.00Mbit) 
+2023-11-01 21:47:03 [INFO] 
+*** Build it ***
+
+2023-11-01 21:47:03 [INFO] *** Configuring hosts
+
+2023-11-01 21:47:03 [INFO] host 
+2023-11-01 21:47:03 [INFO] usr 
+2023-11-01 21:47:03 [INFO] at1 
+2023-11-01 21:47:03 [INFO] at2 
+2023-11-01 21:47:03 [INFO] at3 
+2023-11-01 21:47:03 [INFO] at4 
+2023-11-01 21:47:03 [INFO] at5 
+2023-11-01 21:47:03 [INFO] 
+
+2023-11-01 21:47:03 [INFO] *** Post-startup configuration ***
+
+2023-11-01 21:47:03 [INFO] *** Run Mininet's CLI ***
+
+2023-11-01 21:47:03 [INFO] *** Starting CLI:
+
+2023-11-01 21:47:11 [Level 25] *** Ping: testing ping reachability
+
+2023-11-01 21:47:11 [Level 25] host -> 
+2023-11-01 21:47:14 [Level 25] X 
+2023-11-01 21:47:17 [Level 25] X 
+2023-11-01 21:47:20 [Level 25] X 
+2023-11-01 21:47:23 [Level 25] X 
+2023-11-01 21:47:26 [Level 25] X 
+2023-11-01 21:47:28 [Level 25] 
+Interrupt
+
+2023-11-01 21:47:28 [INFO] stopping host 
+
+2023-11-01 21:47:30 [Level 25] host-eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.0.1  netmask 255.0.0.0  broadcast 10.255.255.255
+        inet6 fe80::b818:93ff:fed3:e8ad  prefixlen 64  scopeid 0x20<link>
+        ether ba:18:93:d3:e8:ad  txqueuelen 1000  (Ethernet)
+        RX packets 21  bytes 2615 (2.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 26  bytes 1412 (1.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+2023-11-01 21:49:37 [Level 25] 
+
+2023-11-01 21:49:37 [INFO] *** Stopping network ***
+
+2023-11-01 21:49:37 [INFO] *** Stopping 0 controllers
+
+2023-11-01 21:49:37 [INFO] 
+
+2023-11-01 21:49:37 [INFO] *** Stopping 8 links
+
+2023-11-01 21:49:37 [INFO] .
+2023-11-01 21:49:37 [INFO] .
+2023-11-01 21:49:37 [INFO] .
+2023-11-01 21:49:37 [INFO] .
+2023-11-01 21:49:37 [INFO] .
+2023-11-01 21:49:37 [INFO] .
+2023-11-01 21:49:37 [INFO] .
+2023-11-01 21:49:37 [INFO] .
+2023-11-01 21:49:38 [INFO] 
+
+2023-11-01 21:49:38 [INFO] *** Stopping 2 switches
+
+2023-11-01 21:49:38 [INFO] s1 
+2023-11-01 21:49:38 [INFO] s2 
+2023-11-01 21:49:38 [INFO] 
+
+2023-11-01 21:49:38 [INFO] *** Stopping 7 hosts
+
+2023-11-01 21:49:38 [INFO] host 
+2023-11-01 21:49:38 [INFO] usr 
+2023-11-01 21:49:38 [INFO] at1 
+2023-11-01 21:49:38 [INFO] at2 
+2023-11-01 21:49:38 [INFO] at3 
+2023-11-01 21:49:38 [INFO] at4 
+2023-11-01 21:49:38 [INFO] at5 
+2023-11-01 21:49:38 [INFO] 
+*** Done
+

@@ -1,0 +1,180 @@
+2023-11-01 21:39:48 [INFO] *** Add 2 switches ***
+
+2023-11-01 21:39:48 [INFO] *** Add Hosts ***
+
+2023-11-01 21:39:48 [INFO] *** Add links ***
+
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (5.00Mbit) 
+2023-11-01 21:39:48 [INFO] (5.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:48 [INFO] (10.00Mbit) 
+2023-11-01 21:39:49 [INFO] (10.00Mbit) 
+2023-11-01 21:39:49 [INFO] (10.00Mbit) 
+2023-11-01 21:39:49 [INFO] 
+*** Build it ***
+
+2023-11-01 21:39:49 [INFO] *** Configuring hosts
+
+2023-11-01 21:39:49 [INFO] host 
+2023-11-01 21:39:49 [INFO] usr 
+2023-11-01 21:39:49 [INFO] at1 
+2023-11-01 21:39:49 [INFO] at2 
+2023-11-01 21:39:49 [INFO] at3 
+2023-11-01 21:39:49 [INFO] at4 
+2023-11-01 21:39:49 [INFO] at5 
+2023-11-01 21:39:49 [INFO] 
+
+2023-11-01 21:39:49 [INFO] *** Post-startup configuration ***
+
+2023-11-01 21:39:49 [INFO] *** Run Mininet's CLI ***
+
+2023-11-01 21:39:49 [INFO] *** Starting CLI:
+
+2023-11-01 21:39:53 [Level 25] *** Ping: testing ping reachability
+
+2023-11-01 21:39:53 [Level 25] host -> 
+2023-11-01 21:39:56 [Level 25] X 
+2023-11-01 21:39:59 [Level 25] X 
+2023-11-01 21:40:02 [Level 25] X 
+2023-11-01 21:40:05 [Level 25] X 
+2023-11-01 21:40:08 [Level 25] X 
+2023-11-01 21:40:11 [Level 25] X 
+2023-11-01 21:40:11 [Level 25] 
+
+2023-11-01 21:40:11 [Level 25] usr -> 
+2023-11-01 21:40:14 [Level 25] X 
+2023-11-01 21:40:18 [Level 25] X 
+2023-11-01 21:40:21 [Level 25] X 
+2023-11-01 21:40:24 [Level 25] X 
+2023-11-01 21:40:27 [Level 25] X 
+2023-11-01 21:40:30 [Level 25] X 
+2023-11-01 21:40:30 [Level 25] 
+
+2023-11-01 21:40:30 [Level 25] at1 -> 
+2023-11-01 21:40:33 [Level 25] X 
+2023-11-01 21:40:36 [Level 25] X 
+2023-11-01 21:40:39 [Level 25] X 
+2023-11-01 21:40:42 [Level 25] X 
+2023-11-01 21:40:45 [Level 25] X 
+2023-11-01 21:40:48 [Level 25] X 
+2023-11-01 21:40:48 [Level 25] 
+
+2023-11-01 21:40:48 [Level 25] at2 -> 
+2023-11-01 21:40:51 [Level 25] X 
+2023-11-01 21:40:54 [Level 25] X 
+2023-11-01 21:40:55 [Level 25] 
+Interrupt
+
+2023-11-01 21:40:55 [INFO] stopping at2 
+
+2023-11-01 21:40:59 [Level 25] <Host host: host-eth0:10.0.0.1 pid=8064> 
+
+2023-11-01 21:40:59 [Level 25] <Host usr: usr-eth0:10.0.0.2 pid=8066> 
+
+2023-11-01 21:40:59 [Level 25] <Host at1: at1-eth0:10.0.0.3 pid=8068> 
+
+2023-11-01 21:40:59 [Level 25] <Host at2: at2-eth0:10.0.0.4 pid=8070> 
+
+2023-11-01 21:40:59 [Level 25] <Host at3: at3-eth0:10.0.0.5 pid=8072> 
+
+2023-11-01 21:40:59 [Level 25] <Host at4: at4-eth0:10.0.0.6 pid=8074> 
+
+2023-11-01 21:40:59 [Level 25] <Host at5: at5-eth0:10.0.0.7 pid=8076> 
+
+2023-11-01 21:40:59 [Level 25] <OVSSwitch s1: lo:127.0.0.1,s1-eth1:None,s1-eth2:None,s1-eth3:None,s1-eth4:None pid=8056> 
+
+2023-11-01 21:40:59 [Level 25] <OVSSwitch s2: lo:127.0.0.1,s2-eth1:None,s2-eth2:None,s2-eth3:None,s2-eth4:None,s2-eth5:None pid=8059> 
+
+2023-11-01 21:41:39 [Level 25] PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+
+2023-11-01 21:41:41 [Level 25] 
+--- 10.0.0.2 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2046ms
+
+
+2023-11-01 21:41:41 [Level 25] 
+2023-11-01 21:41:52 [ERROR] *** Unknown command: mininet> s1 stop; s1 start
+
+2023-11-01 21:41:52 [ERROR] *** Unknown command: mininet> s2 stop; s2 start
+
+2023-11-01 21:41:57 [Level 25] bash: stop: command not found
+bash: 127.0.0.1: command not found
+
+2023-11-01 21:42:09 [Level 25] bash: start: command not found
+
+2023-11-01 21:44:48 [Level 25] PING 10.0.0.6 (10.0.0.6) 56(84) bytes of data.
+
+2023-11-01 21:44:51 [Level 25] From 10.0.0.5 icmp_seq=1 Destination Host Unreachable
+From 10.0.0.5 icmp_seq=2 Destination Host Unreachable
+From 10.0.0.5 icmp_seq=3 Destination Host Unreachable
+
+2023-11-01 21:44:53 [Level 25] 
+--- 10.0.0.6 ping statistics ---
+5 packets transmitted, 0 received, +3 errors, 100% packet loss, time 4073ms
+pipe 4
+
+2023-11-01 21:44:53 [Level 25] 
+2023-11-01 21:46:07 [Level 25] s1-eth1<->host-eth0 (OK OK) 
+
+2023-11-01 21:46:07 [Level 25] s1-eth2<->usr-eth0 (OK OK) 
+
+2023-11-01 21:46:07 [Level 25] s1-eth3<->at1-eth0 (OK OK) 
+
+2023-11-01 21:46:07 [Level 25] s1-eth4<->s2-eth1 (OK OK) 
+
+2023-11-01 21:46:07 [Level 25] s2-eth2<->at2-eth0 (OK OK) 
+
+2023-11-01 21:46:07 [Level 25] s2-eth3<->at3-eth0 (OK OK) 
+
+2023-11-01 21:46:07 [Level 25] s2-eth4<->at4-eth0 (OK OK) 
+
+2023-11-01 21:46:07 [Level 25] s2-eth5<->at5-eth0 (OK OK) 
+
+2023-11-01 21:46:56 [Level 25] 
+
+2023-11-01 21:46:56 [INFO] *** Stopping network ***
+
+2023-11-01 21:46:56 [INFO] *** Stopping 0 controllers
+
+2023-11-01 21:46:56 [INFO] 
+
+2023-11-01 21:46:56 [INFO] *** Stopping 8 links
+
+2023-11-01 21:46:56 [INFO] .
+2023-11-01 21:46:56 [INFO] .
+2023-11-01 21:46:56 [INFO] .
+2023-11-01 21:46:56 [INFO] .
+2023-11-01 21:46:56 [INFO] .
+2023-11-01 21:46:56 [INFO] .
+2023-11-01 21:46:56 [INFO] .
+2023-11-01 21:46:56 [INFO] .
+2023-11-01 21:46:56 [INFO] 
+
+2023-11-01 21:46:56 [INFO] *** Stopping 2 switches
+
+2023-11-01 21:46:56 [INFO] s1 
+2023-11-01 21:46:56 [INFO] s2 
+2023-11-01 21:46:56 [INFO] 
+
+2023-11-01 21:46:56 [INFO] *** Stopping 7 hosts
+
+2023-11-01 21:46:56 [INFO] host 
+2023-11-01 21:46:56 [INFO] usr 
+2023-11-01 21:46:56 [INFO] at1 
+2023-11-01 21:46:56 [INFO] at2 
+2023-11-01 21:46:56 [INFO] at3 
+2023-11-01 21:46:56 [INFO] at4 
+2023-11-01 21:46:56 [INFO] at5 
+2023-11-01 21:46:56 [INFO] 
+*** Done
+

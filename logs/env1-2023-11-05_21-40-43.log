@@ -1,0 +1,245 @@
+2023-11-05 21:40:43 [INFO] *** Controller (Ryu) ***
+
+2023-11-05 21:40:43 [INFO] *** Add 2 switches ***
+
+2023-11-05 21:40:43 [INFO] *** Add Hosts ***
+
+2023-11-05 21:40:43 [INFO] *** Add links ***
+
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (5.00Mbit) 
+2023-11-05 21:40:43 [INFO] (5.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] 
+*** Build it ***
+
+2023-11-05 21:40:43 [INFO] *** Configuring hosts
+
+2023-11-05 21:40:43 [INFO] host 
+2023-11-05 21:40:43 [INFO] usr 
+2023-11-05 21:40:43 [INFO] at1 
+2023-11-05 21:40:43 [INFO] at2 
+2023-11-05 21:40:43 [INFO] at3 
+2023-11-05 21:40:43 [INFO] at4 
+2023-11-05 21:40:43 [INFO] at5 
+2023-11-05 21:40:43 [INFO] 
+
+2023-11-05 21:40:43 [INFO] *** Start the controller ***
+
+2023-11-05 21:40:43 [INFO] *** Start switches and associate with controller ***
+
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (5.00Mbit) 
+2023-11-05 21:40:43 [INFO] (5.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:43 [INFO] (10.00Mbit) 
+2023-11-05 21:40:44 [INFO] (10.00Mbit) 
+2023-11-05 21:40:44 [INFO] *** Post-startup configuration ***
+
+2023-11-05 21:40:44 [INFO] *** Run Mininet's CLI ***
+
+2023-11-05 21:40:44 [INFO] *** Starting CLI:
+
+2023-11-05 21:42:42 [Level 25] *** Ping: testing ping reachability
+
+2023-11-05 21:42:42 [Level 25] host -> 
+2023-11-05 21:42:42 [Level 25] usr 
+2023-11-05 21:42:42 [Level 25] at1 
+2023-11-05 21:42:42 [Level 25] at2 
+2023-11-05 21:42:42 [Level 25] at3 
+2023-11-05 21:42:42 [Level 25] at4 
+2023-11-05 21:42:42 [Level 25] at5 
+2023-11-05 21:42:42 [Level 25] 
+
+2023-11-05 21:42:42 [Level 25] usr -> 
+2023-11-05 21:42:42 [Level 25] host 
+2023-11-05 21:42:42 [Level 25] at1 
+2023-11-05 21:42:42 [Level 25] at2 
+2023-11-05 21:42:42 [Level 25] at3 
+2023-11-05 21:42:42 [Level 25] at4 
+2023-11-05 21:42:42 [Level 25] at5 
+2023-11-05 21:42:42 [Level 25] 
+
+2023-11-05 21:42:42 [Level 25] at1 -> 
+2023-11-05 21:42:42 [Level 25] host 
+2023-11-05 21:42:42 [Level 25] usr 
+2023-11-05 21:42:42 [Level 25] at2 
+2023-11-05 21:42:42 [Level 25] at3 
+2023-11-05 21:42:42 [Level 25] at4 
+2023-11-05 21:42:42 [Level 25] at5 
+2023-11-05 21:42:42 [Level 25] 
+
+2023-11-05 21:42:42 [Level 25] at2 -> 
+2023-11-05 21:42:42 [Level 25] host 
+2023-11-05 21:42:42 [Level 25] usr 
+2023-11-05 21:42:42 [Level 25] at1 
+2023-11-05 21:42:42 [Level 25] at3 
+2023-11-05 21:42:42 [Level 25] at4 
+2023-11-05 21:42:42 [Level 25] at5 
+2023-11-05 21:42:42 [Level 25] 
+
+2023-11-05 21:42:42 [Level 25] at3 -> 
+2023-11-05 21:42:42 [Level 25] host 
+2023-11-05 21:42:42 [Level 25] usr 
+2023-11-05 21:42:42 [Level 25] at1 
+2023-11-05 21:42:42 [Level 25] at2 
+2023-11-05 21:42:42 [Level 25] at4 
+2023-11-05 21:42:42 [Level 25] at5 
+2023-11-05 21:42:42 [Level 25] 
+
+2023-11-05 21:42:42 [Level 25] at4 -> 
+2023-11-05 21:42:42 [Level 25] host 
+2023-11-05 21:42:42 [Level 25] usr 
+2023-11-05 21:42:42 [Level 25] at1 
+2023-11-05 21:42:42 [Level 25] at2 
+2023-11-05 21:42:42 [Level 25] at3 
+2023-11-05 21:42:42 [Level 25] at5 
+2023-11-05 21:42:42 [Level 25] 
+
+2023-11-05 21:42:42 [Level 25] at5 -> 
+2023-11-05 21:42:42 [Level 25] host 
+2023-11-05 21:42:42 [Level 25] usr 
+2023-11-05 21:42:42 [Level 25] at1 
+2023-11-05 21:42:42 [Level 25] at2 
+2023-11-05 21:42:42 [Level 25] at3 
+2023-11-05 21:42:42 [Level 25] at4 
+2023-11-05 21:42:42 [Level 25] 
+
+2023-11-05 21:42:42 [Level 25] *** Results: 0% dropped (42/42 received)
+
+2023-11-05 21:42:54 [Level 25] *** Ping: testing ping reachability
+
+2023-11-05 21:42:54 [Level 25] host -> 
+2023-11-05 21:42:54 [Level 25] usr 
+2023-11-05 21:42:54 [Level 25] at1 
+2023-11-05 21:42:54 [Level 25] at2 
+2023-11-05 21:42:54 [Level 25] at3 
+2023-11-05 21:42:54 [Level 25] at4 
+2023-11-05 21:42:54 [Level 25] at5 
+2023-11-05 21:42:54 [Level 25] 
+
+2023-11-05 21:42:54 [Level 25] usr -> 
+2023-11-05 21:42:54 [Level 25] host 
+2023-11-05 21:42:54 [Level 25] at1 
+2023-11-05 21:42:54 [Level 25] at2 
+2023-11-05 21:42:54 [Level 25] at3 
+2023-11-05 21:42:54 [Level 25] at4 
+2023-11-05 21:42:54 [Level 25] at5 
+2023-11-05 21:42:54 [Level 25] 
+
+2023-11-05 21:42:54 [Level 25] at1 -> 
+2023-11-05 21:42:54 [Level 25] host 
+2023-11-05 21:42:54 [Level 25] usr 
+2023-11-05 21:42:54 [Level 25] at2 
+2023-11-05 21:42:54 [Level 25] at3 
+2023-11-05 21:42:54 [Level 25] at4 
+2023-11-05 21:42:54 [Level 25] at5 
+2023-11-05 21:42:54 [Level 25] 
+
+2023-11-05 21:42:54 [Level 25] at2 -> 
+2023-11-05 21:42:54 [Level 25] host 
+2023-11-05 21:42:54 [Level 25] usr 
+2023-11-05 21:42:54 [Level 25] at1 
+2023-11-05 21:42:54 [Level 25] at3 
+2023-11-05 21:42:54 [Level 25] at4 
+2023-11-05 21:42:54 [Level 25] at5 
+2023-11-05 21:42:54 [Level 25] 
+
+2023-11-05 21:42:54 [Level 25] at3 -> 
+2023-11-05 21:42:54 [Level 25] host 
+2023-11-05 21:42:54 [Level 25] usr 
+2023-11-05 21:42:54 [Level 25] at1 
+2023-11-05 21:42:54 [Level 25] at2 
+2023-11-05 21:42:54 [Level 25] at4 
+2023-11-05 21:42:54 [Level 25] at5 
+2023-11-05 21:42:54 [Level 25] 
+
+2023-11-05 21:42:54 [Level 25] at4 -> 
+2023-11-05 21:42:54 [Level 25] host 
+2023-11-05 21:42:54 [Level 25] usr 
+2023-11-05 21:42:54 [Level 25] at1 
+2023-11-05 21:42:54 [Level 25] at2 
+2023-11-05 21:42:54 [Level 25] at3 
+2023-11-05 21:42:54 [Level 25] at5 
+2023-11-05 21:42:54 [Level 25] 
+
+2023-11-05 21:42:54 [Level 25] at5 -> 
+2023-11-05 21:42:54 [Level 25] host 
+2023-11-05 21:42:54 [Level 25] usr 
+2023-11-05 21:42:54 [Level 25] at1 
+2023-11-05 21:42:54 [Level 25] at2 
+2023-11-05 21:42:54 [Level 25] at3 
+2023-11-05 21:42:54 [Level 25] at4 
+2023-11-05 21:42:54 [Level 25] 
+
+2023-11-05 21:42:54 [Level 25] *** Results: 0% dropped (42/42 received)
+
+2023-11-05 21:44:11 [ERROR] node 'a1' not in network
+
+2023-11-05 21:45:03 [Level 25] HPING 10.0.0.1 (at2-eth0 10.0.0.1): NO FLAGS are set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+
+2023-11-05 21:45:06 [Level 25] 
+--- 10.0.0.1 hping statistic ---
+29134 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+2023-11-05 21:45:06 [Level 25] 
+2023-11-05 21:45:10 [Level 25] 
+2023-11-05 21:45:44 [Level 25] bash: 10.0.0.5: command not found
+bash: 10.0.0.3: command not found
+bash: 10.0.0.6: command not found
+bash: 10.0.0.5: command not found
+bash: 10.0.0.7: command not found
+
+2023-11-05 21:45:49 [Level 25] HPING 10.0.0.1 (at1-eth0 10.0.0.1): NO FLAGS are set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+[7] 18225
+[8] 18226
+[9] 18227
+[10] 18228
+[11] 18229
+bash: 10.0.0.4: command not found
+[12] 18230
+bash: 10.0.0.6: command not found
+bash: 10.0.0.5: command not found
+
+2023-11-05 21:45:49 [Level 25] bash: 10.0.0.7: command not found
+
+2023-11-05 21:45:49 [Level 25] bash: 10.0.0.3: command not found
+
+2023-11-05 21:45:49 [Level 25] 
+2023-11-05 21:45:49 [Level 25] 
+2023-11-05 21:46:03 [Level 25] HPING 10.0.0.1 (at1-eth0 10.0.0.1): NO FLAGS are set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+bash: syntax error near unexpected token `;'
+2023-11-05 21:46:03 [Level 25] 
+
+2023-11-05 21:46:10 [Level 25] 
+Interrupt
+
+2023-11-05 21:46:17 [Level 25] 
+2023-11-05 21:46:20 [Level 25] HPING 10.0.0.1 (at2-eth0 10.0.0.1): NO FLAGS are set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+
+2023-11-05 21:46:20 [Level 25] 
+2023-11-05 21:46:24 [Level 25] 
+2023-11-05 21:46:27 [Level 25] 
+2023-11-05 21:46:31 [Level 25] 
+2023-11-05 21:46:53 [Level 25] 
+

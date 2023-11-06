@@ -1,0 +1,120 @@
+2023-11-01 21:51:58 [INFO] *** Add 2 switches ***
+
+2023-11-01 21:51:58 [INFO] *** Add Hosts ***
+
+2023-11-01 21:51:58 [INFO] *** Add links ***
+
+2023-11-01 21:51:58 [INFO] 
+*** Build it ***
+
+2023-11-01 21:51:58 [INFO] *** Configuring hosts
+
+2023-11-01 21:51:58 [INFO] host 
+2023-11-01 21:51:58 [INFO] usr 
+2023-11-01 21:51:58 [INFO] at1 
+2023-11-01 21:51:58 [INFO] at2 
+2023-11-01 21:51:58 [INFO] at3 
+2023-11-01 21:51:58 [INFO] at4 
+2023-11-01 21:51:58 [INFO] at5 
+2023-11-01 21:51:58 [INFO] 
+
+2023-11-01 21:51:58 [INFO] *** Post-startup configuration ***
+
+2023-11-01 21:51:58 [INFO] *** Run Mininet's CLI ***
+
+2023-11-01 21:51:58 [INFO] *** Starting CLI:
+
+2023-11-01 21:52:03 [Level 25] *** Ping: testing ping reachability
+
+2023-11-01 21:52:03 [Level 25] host -> 
+2023-11-01 21:52:06 [Level 25] X 
+2023-11-01 21:52:09 [Level 25] X 
+2023-11-01 21:52:12 [Level 25] X 
+2023-11-01 21:52:15 [Level 25] X 
+2023-11-01 21:52:18 [Level 25] X 
+2023-11-01 21:52:21 [Level 25] X 
+2023-11-01 21:52:21 [Level 25] 
+
+2023-11-01 21:52:21 [Level 25] usr -> 
+2023-11-01 21:52:25 [Level 25] X 
+2023-11-01 21:52:28 [Level 25] X 
+2023-11-01 21:52:31 [Level 25] X 
+2023-11-01 21:52:34 [Level 25] X 
+2023-11-01 21:52:37 [Level 25] X 
+2023-11-01 21:52:40 [Level 25] X 
+2023-11-01 21:52:40 [Level 25] 
+
+2023-11-01 21:52:40 [Level 25] at1 -> 
+2023-11-01 21:52:43 [Level 25] X 
+2023-11-01 21:52:46 [Level 25] X 
+2023-11-01 21:52:49 [Level 25] X 
+2023-11-01 21:52:52 [Level 25] X 
+2023-11-01 21:52:55 [Level 25] X 
+2023-11-01 21:52:57 [Level 25] 
+Interrupt
+
+2023-11-01 21:52:57 [INFO] stopping at1 
+
+2023-11-01 21:53:00 [ERROR] *** Unknown command: mininet> s1 ovs-ofctl dump-flows s1
+
+2023-11-01 21:53:00 [ERROR] *** Unknown command: mininet> s2 ovs-ofctl
+
+2023-11-01 21:53:07 [Level 25] ovs-ofctl: 127.0.0.1 is not a bridge or a socket
+
+2023-11-01 21:53:07 [Level 25] 
+2023-11-01 21:53:52 [ERROR] *** Unknown command: ovs-ofctl dump-flows s1
+
+2023-11-01 21:55:38 [ERROR] *** Unknown command: ovs-ofctl del-flows s1
+
+2023-11-01 21:55:49 [Level 25] 
+Interrupt
+
+2023-11-01 21:55:51 [Level 25] ovs-ofctl: missing command name; use --help for help
+
+2023-11-01 21:55:51 [Level 25] 
+2023-11-01 21:56:02 [Level 25] 
+Interrupt
+
+2023-11-01 21:56:04 [Level 25] ovs-ofctl: 127.0.0.1 is not a bridge or a socket
+
+2023-11-01 21:56:04 [Level 25] 
+2023-11-01 22:04:38 [Level 25] 
+
+2023-11-01 22:04:38 [INFO] *** Stopping network ***
+
+2023-11-01 22:04:38 [INFO] *** Stopping 0 controllers
+
+2023-11-01 22:04:38 [INFO] 
+
+2023-11-01 22:04:38 [INFO] *** Stopping 1 terms
+
+2023-11-01 22:04:38 [INFO] *** Stopping 8 links
+
+2023-11-01 22:04:38 [INFO] .
+2023-11-01 22:04:38 [INFO] .
+2023-11-01 22:04:38 [INFO] .
+2023-11-01 22:04:38 [INFO] .
+2023-11-01 22:04:39 [INFO] .
+2023-11-01 22:04:39 [INFO] .
+2023-11-01 22:04:39 [INFO] .
+2023-11-01 22:04:39 [INFO] .
+2023-11-01 22:04:39 [INFO] 
+
+2023-11-01 22:04:39 [INFO] *** Stopping 2 switches
+
+2023-11-01 22:04:39 [INFO] s1 
+2023-11-01 22:04:39 [INFO] s2 
+2023-11-01 22:04:39 [INFO] 
+
+2023-11-01 22:04:39 [INFO] *** Stopping 7 hosts
+
+2023-11-01 22:04:39 [INFO] host 
+2023-11-01 22:04:39 [INFO] usr 
+2023-11-01 22:04:39 [INFO] at1 
+2023-11-01 22:04:39 [INFO] at2 
+2023-11-01 22:04:39 [INFO] at3 
+2023-11-01 22:04:39 [INFO] at4 
+2023-11-01 22:04:39 [INFO] at5 
+2023-11-01 22:04:39 [INFO] 
+*** Done
+
