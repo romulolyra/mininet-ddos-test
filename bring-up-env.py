@@ -5,8 +5,10 @@ Test environment
  - no attack
 '''
 import logging
+
 from datetime import datetime
 import os
+import time
 
 # Create "logs" folder if it doesn't exist
 if not os.path.exists("logs"):
@@ -72,43 +74,6 @@ def scenario_basic():
     logging.info('*** Run Mininet\'s CLI ***\n')
     CLI(net)
 
-    time.sleep(2)
-    start_host(host)
-
-    start_user(usr)
-
-    print("\n---------\n\n     >>>> 10 seconds")
-    logging.info('*** 10 seconds countdown ***\n')
-    CLI(net)
-    time.sleep(10)  # Espera por 10 segundos
-
-    logging.info('*** ATACK TIME  ***\n')
-    for a in [at1, at2, at3, at4, at5]:
-        launch_ddos_attack(a, '10.0.0.1')
-
-    logging.info('*** Stopping network ***\n')
-    net.stop()
-def launch_ddos_attack(host, target_ip):
-    host.cmd('hping3 -V -1 -d 1400 --faster  %s &' % target_ip)
-
-def start_host(host):
-    logging.info('*** Setting up Apache2 on host\n')
-    host.cmd('echo "Hello from h1 web server!" > index.html')
-    host.cmd('python3 -m http.server 80 &')
-
-def start_user(usr):
-    logging.info('*** Setting up usr to check the web page\n')
-    check_script = """
-    while true; do
-        if wget http://10.0.0.1 -O /dev/null 2>/dev/null; then
-            echo "$(date) - Accessed the web page successfully" >> ./logs/ust_log.txt
-        else
-            echo "$(date) - Error accessing the web page" >> ./logs/usr_log.txt
-        fi
-        sleep 1
-    done
-    """
-    usr.cmdPrint('bash -c "%s" &' % check_script)
 
 
 if __name__ == '__main__':
