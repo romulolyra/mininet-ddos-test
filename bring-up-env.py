@@ -68,12 +68,9 @@ def scenario_basic():
     s1.start([c0])
     s2.start([c0])
 
-    logging.info('*** Post-startup configuration ***\n')
-    # Any post-startup configuration goes here
 
     logging.info('*** Run Mininet\'s CLI ***\n')
     CLI(net)
-
 
 
 if __name__ == '__main__':

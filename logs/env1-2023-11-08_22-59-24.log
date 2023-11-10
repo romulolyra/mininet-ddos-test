@@ -1,0 +1,64 @@
+2023-11-08 22:59:24 [INFO] *** Add 2 switches ***
+
+2023-11-08 22:59:24 [INFO] *** Add Hosts ***
+
+2023-11-08 22:59:24 [INFO] *** Add links ***
+
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:59:24 [INFO] 
+*** Build it ***
+
+2023-11-08 22:59:24 [INFO] *** Configuring hosts
+
+2023-11-08 22:59:24 [INFO] host 
+2023-11-08 22:59:24 [INFO] usr 
+2023-11-08 22:59:24 [INFO] at1 
+2023-11-08 22:59:24 [INFO] at2 
+2023-11-08 22:59:24 [INFO] at3 
+2023-11-08 22:59:24 [INFO] at4 
+2023-11-08 22:59:24 [INFO] at5 
+2023-11-08 22:59:24 [INFO] 
+
+2023-11-08 22:59:24 [INFO] *** Run Mininet's CLI ***
+
+2023-11-08 22:59:24 [INFO] *** Starting CLI:
+
+2023-11-08 22:59:28 [Level 25] *** Ping: testing ping reachability
+
+2023-11-08 22:59:28 [Level 25] host -> 
+2023-11-08 22:59:31 [Level 25] X 
+2023-11-08 22:59:34 [Level 25] X 
+2023-11-08 22:59:38 [Level 25] X 
+2023-11-08 22:59:41 [Level 25] X 
+2023-11-08 22:59:44 [Level 25] X 
+2023-11-08 22:59:47 [Level 25] X 
+2023-11-08 22:59:47 [Level 25] 
+
+2023-11-08 22:59:47 [Level 25] usr -> 
+2023-11-08 22:59:50 [Level 25] X 
+2023-11-08 22:59:53 [Level 25] X 
+2023-11-08 22:59:56 [Level 25] X 
+2023-11-08 22:59:59 [Level 25] X 
+2023-11-08 23:00:02 [Level 25] X 
+2023-11-08 23:00:03 [Level 25] 
+Interrupt
+
+2023-11-08 23:00:03 [INFO] stopping usr 
+
+2023-11-08 23:00:04 [Level 25] 
+

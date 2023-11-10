@@ -1,0 +1,54 @@
+2023-11-08 22:53:44 [INFO] *** Add 2 switches ***
+
+2023-11-08 22:53:45 [INFO] *** Add Hosts ***
+
+2023-11-08 22:53:45 [INFO] *** Add links ***
+
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] (5.00Mbit 20ms delay 10.00000% loss) 
+2023-11-08 22:53:45 [INFO] 
+*** Build it ***
+
+2023-11-08 22:53:45 [INFO] *** Configuring hosts
+
+2023-11-08 22:53:45 [INFO] host 
+2023-11-08 22:53:45 [INFO] usr 
+2023-11-08 22:53:45 [INFO] at1 
+2023-11-08 22:53:45 [INFO] at2 
+2023-11-08 22:53:45 [INFO] at3 
+2023-11-08 22:53:45 [INFO] at4 
+2023-11-08 22:53:45 [INFO] at5 
+2023-11-08 22:53:45 [INFO] 
+
+2023-11-08 22:53:45 [INFO] *** Run Mininet's CLI ***
+
+2023-11-08 22:53:45 [INFO] *** Starting CLI:
+
+2023-11-08 22:53:56 [Level 25] *** Ping: testing ping reachability
+
+2023-11-08 22:53:56 [Level 25] host -> 
+2023-11-08 22:53:59 [Level 25] X 
+2023-11-08 22:54:02 [Level 25] X 
+2023-11-08 22:54:05 [Level 25] X 
+2023-11-08 22:54:09 [Level 25] X 
+2023-11-08 22:54:11 [Level 25] 
+Interrupt
+
+2023-11-08 22:54:11 [INFO] stopping host 
+
+2023-11-08 22:54:14 [Level 25] 
+

@@ -1,0 +1,16 @@
+2023-11-09 20:28:31 [INFO] *** Controller (Ryu) ***
+
+2023-11-09 20:28:31 [WARNING] Unable to contact the remote controller at 127.0.0.1:6633
+
+2023-11-09 20:28:31 [INFO] *** Add 2 switches ***
+
+2023-11-09 20:28:31 [INFO] *** Add Hosts ***
+
+2023-11-09 20:28:31 [INFO] *** Add links ***
+
+2023-11-09 20:28:31 [INFO] (10.00Mbit) 
+2023-11-09 20:28:31 [INFO] (10.00Mbit) 
+2023-11-09 20:28:31 [INFO] (10.00Mbit) 
+2023-11-09 20:28:31 [INFO] (10.00Mbit) 
+2023-11-09 20:28:31 [INFO] (10.00Mbit) 
+2023-11-09 20:28:31 [INFO] (10.00Mbit) 

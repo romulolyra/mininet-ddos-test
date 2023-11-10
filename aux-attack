@@ -1,2 +1,2 @@
-mininet> py [net.get('host').cmd('python3 -m http.server 80 &'), net.get('host').cmd('tshark -i host-eth0 -w host_capture.pcap &')] + [net.get('at%d' % i).cmd('hping3 --flood --rand-source --win 65535 -p 80 10.0.0.1') for i in range(1, 6)] 
+py [net.get('at%d' % i).cmd('bash attack.sh') for i in range(1,6)]
 
